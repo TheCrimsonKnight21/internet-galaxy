@@ -1,0 +1,220 @@
+{
+  "suns": [
+    { "id": "Google", "traffic": 100, "category": "tech-giant", "x": 0, "y": 0, "z": 0, "link": "https://google.com" },
+    { "id": "Amazon", "traffic": 98, "category": "tech-giant", "x": 10, "y": 0, "z": 0, "link": "https://amazon.com" },
+    { "id": "Microsoft", "traffic": 97, "category": "tech-giant", "x": -10, "y": 0, "z": 0, "link": "https://microsoft.com" },
+    { "id": "Meta", "traffic": 96, "category": "tech-giant", "x": 0, "y": 10, "z": 0, "link": "https://meta.com" },
+    { "id": "Apple", "traffic": 95, "category": "tech-giant", "x": 0, "y": -10, "z": 0, "link": "https://apple.com" }
+  ],
+  "planets": [
+    { "id": "YouTube", "traffic": 90, "category": "media", "x": 2, "y": 1, "z": 1, "link": "https://youtube.com", "orbits": "Google" },
+    { "id": "Gmail", "traffic": 95, "category": "communication", "x": 1, "y": 2, "z": 1, "link": "https://gmail.com", "orbits": "Google" },
+    { "id": "Google Maps", "traffic": 90, "category": "tech", "x": -1, "y": 2, "z": 1, "link": "https://maps.google.com", "orbits": "Google" },
+    { "id": "Android", "traffic": 85, "category": "tech", "x": -2, "y": -1, "z": 1, "link": "https://android.com", "orbits": "Google" },
+    { "id": "Chrome", "traffic": 88, "category": "tech", "x": 2, "y": -1, "z": 1, "link": "https://google.com/chrome", "orbits": "Google" },
+    { "id": "Google Drive", "traffic": 87, "category": "cloud", "x": -2, "y": 2, "z": 1, "link": "https://drive.google.com", "orbits": "Google" },
+    { "id": "Google Photos", "traffic": 82, "category": "media", "x": 3, "y": 0, "z": 1, "link": "https://photos.google.com", "orbits": "Google" },
+    { "id": "Google Calendar", "traffic": 78, "category": "tech", "x": 0, "y": 3, "z": 1, "link": "https://calendar.google.com", "orbits": "Google" },
+    
+    { "id": "AWS", "traffic": 92, "category": "cloud", "x": 12, "y": 2, "z": 1, "link": "https://aws.amazon.com", "orbits": "Amazon" },
+    { "id": "Prime Video", "traffic": 85, "category": "media", "x": 11, "y": -1, "z": 1, "link": "https://primevideo.com", "orbits": "Amazon" },
+    { "id": "Twitch", "traffic": 60, "category": "gaming", "x": 9, "y": 1, "z": 1, "link": "https://twitch.tv", "orbits": "Amazon" },
+    { "id": "IMDb", "traffic": 70, "category": "media", "x": 8, "y": -2, "z": 1, "link": "https://imdb.com", "orbits": "Amazon" },
+    { "id": "Whole Foods", "traffic": 50, "category": "retail", "x": 13, "y": -1, "z": 1, "link": "https://wholefoods.com", "orbits": "Amazon" },
+    { "id": "Amazon Music", "traffic": 65, "category": "media", "x": 10, "y": -2, "z": 1, "link": "https://music.amazon.com", "orbits": "Amazon" },
+    { "id": "Audible", "traffic": 62, "category": "media", "x": 8, "y": 3, "z": 1, "link": "https://audible.com", "orbits": "Amazon" },
+    { "id": "Goodreads", "traffic": 55, "category": "social", "x": 11, "y": 3, "z": 1, "link": "https://goodreads.com", "orbits": "Amazon" },
+    
+    { "id": "GitHub", "traffic": 85, "category": "tech", "x": -8, "y": 2, "z": 1, "link": "https://github.com", "orbits": "Microsoft" },
+    { "id": "LinkedIn", "traffic": 70, "category": "social", "x": -12, "y": 1, "z": 1, "link": "https://linkedin.com", "orbits": "Microsoft" },
+    { "id": "Skype", "traffic": 60, "category": "communication", "x": -9, "y": -2, "z": 1, "link": "https://skype.com", "orbits": "Microsoft" },
+    { "id": "Office 365", "traffic": 88, "category": "tech", "x": -11, "y": -1, "z": 1, "link": "https://office.com", "orbits": "Microsoft" },
+    { "id": "Xbox", "traffic": 75, "category": "gaming", "x": -7, "y": 3, "z": 1, "link": "https://xbox.com", "orbits": "Microsoft" },
+    { "id": "Teams", "traffic": 82, "category": "communication", "x": -12, "y": -2, "z": 1, "link": "https://teams.microsoft.com", "orbits": "Microsoft" },
+    { "id": "Outlook", "traffic": 80, "category": "communication", "x": -9, "y": -3, "z": 1, "link": "https://outlook.com", "orbits": "Microsoft" },
+    { "id": "Bing", "traffic": 65, "category": "tech", "x": -8, "y": -1, "z": 1, "link": "https://bing.com", "orbits": "Microsoft" },
+    
+    { "id": "Facebook", "traffic": 85, "category": "social", "x": 2, "y": 12, "z": 1, "link": "https://facebook.com", "orbits": "Meta" },
+    { "id": "Instagram", "traffic": 85, "category": "social", "x": -1, "y": 8, "z": 1, "link": "https://instagram.com", "orbits": "Meta" },
+    { "id": "WhatsApp", "traffic": 85, "category": "communication", "x": 1, "y": 9, "z": 1, "link": "https://whatsapp.com", "orbits": "Meta" },
+    { "id": "Threads", "traffic": 50, "category": "social", "x": -2, "y": 11, "z": 1, "link": "https://threads.net", "orbits": "Meta" },
+    { "id": "Oculus", "traffic": 40, "category": "tech", "x": 3, "y": 10, "z": 1, "link": "https://oculus.com", "orbits": "Meta" },
+    { "id": "Messenger", "traffic": 75, "category": "communication", "x": 0, "y": 11, "z": 1, "link": "https://messenger.com", "orbits": "Meta" },
+    { "id": "Facebook Watch", "traffic": 55, "category": "media", "x": -3, "y": 9, "z": 1, "link": "https://facebook.com/watch", "orbits": "Meta" },
+    { "id": "Workplace", "traffic": 45, "category": "tech", "x": 2, "y": 8, "z": 1, "link": "https://workplace.com", "orbits": "Meta" },
+    
+    { "id": "iCloud", "traffic": 80, "category": "cloud", "x": 2, "y": -12, "z": 1, "link": "https://icloud.com", "orbits": "Apple" },
+    { "id": "Apple Music", "traffic": 75, "category": "media", "x": -1, "y": -8, "z": 1, "link": "https://music.apple.com", "orbits": "Apple" },
+    { "id": "App Store", "traffic": 90, "category": "tech", "x": 1, "y": -9, "z": 1, "link": "https://apple.com/app-store", "orbits": "Apple" },
+    { "id": "Apple TV+", "traffic": 65, "category": "media", "x": -2, "y": -11, "z": 1, "link": "https://tv.apple.com", "orbits": "Apple" },
+    { "id": "Apple News", "traffic": 55, "category": "media", "x": 3, "y": -10, "z": 1, "link": "https://apple.com/news", "orbits": "Apple" },
+    { "id": "Apple Arcade", "traffic": 45, "category": "gaming", "x": 0, "y": -8, "z": 1, "link": "https://apple.com/apple-arcade", "orbits": "Apple" },
+    { "id": "Apple Books", "traffic": 40, "category": "media", "x": -3, "y": -9, "z": 1, "link": "https://apple.com/apple-books", "orbits": "Apple" },
+    { "id": "Podcasts", "traffic": 60, "category": "media", "x": 4, "y": -11, "z": 1, "link": "https://apple.com/apple-podcasts", "orbits": "Apple" }
+  ],
+  "wormholes": [
+    { "source": "YouTube", "target": "Prime Video", "weight": 0.8, "type": "media" },
+    { "source": "YouTube", "target": "Twitch", "weight": 0.85, "type": "media" },
+    { "source": "YouTube", "target": "Apple TV+", "weight": 0.7, "type": "media" },
+    { "source": "YouTube", "target": "Facebook Watch", "weight": 0.75, "type": "media" },
+    { "source": "YouTube", "target": "Vimeo", "weight": 0.65, "type": "media" },
+    
+    { "source": "Prime Video", "target": "Apple TV+", "weight": 0.7, "type": "media" },
+    { "source": "Prime Video", "target": "Netflix", "weight": 0.8, "type": "media" },
+    { "source": "Prime Video", "target": "Hulu", "weight": 0.75, "type": "media" },
+    { "source": "Prime Video", "target": "YouTube", "weight": 0.7, "type": "media" },
+    
+    { "source": "Twitch", "target": "Xbox", "weight": 0.9, "type": "gaming" },
+    { "source": "Twitch", "target": "YouTube Gaming", "weight": 0.8, "type": "gaming" },
+    { "source": "Twitch", "target": "Discord", "weight": 0.85, "type": "gaming" },
+    { "source": "Twitch", "target": "Steam", "weight": 0.8, "type": "gaming" },
+    
+    { "source": "GitHub", "target": "AWS", "weight": 0.95, "type": "cloud" },
+    { "source": "GitHub", "target": "Azure", "weight": 0.9, "type": "cloud" },
+    { "source": "GitHub", "target": "Stack Overflow", "weight": 0.95, "type": "tech" },
+    { "source": "GitHub", "target": "GitLab", "weight": 0.85, "type": "tech" },
+    { "source": "GitHub", "target": "Bitbucket", "weight": 0.8, "type": "tech" },
+    
+    { "source": "AWS", "target": "Azure", "weight": 0.7, "type": "cloud" },
+    { "source": "AWS", "target": "Google Cloud", "weight": 0.7, "type": "cloud" },
+    { "source": "AWS", "target": "GitHub", "weight": 0.9, "type": "cloud" },
+    { "source": "AWS", "target": "Netflix", "weight": 0.85, "type": "cloud" },
+    
+    { "source": "Gmail", "target": "Outlook", "weight": 0.8, "type": "communication" },
+    { "source": "Gmail", "target": "Yahoo Mail", "weight": 0.7, "type": "communication" },
+    { "source": "Gmail", "target": "ProtonMail", "weight": 0.6, "type": "communication" },
+    
+    { "source": "Instagram", "target": "Facebook", "weight": 0.95, "type": "social" },
+    { "source": "Instagram", "target": "Threads", "weight": 0.9, "type": "social" },
+    { "source": "Instagram", "target": "Pinterest", "weight": 0.8, "type": "social" },
+    { "source": "Instagram", "target": "TikTok", "weight": 0.9, "type": "social" },
+    { "source": "Instagram", "target": "Snapchat", "weight": 0.8, "type": "social" },
+    
+    { "source": "Facebook", "target": "WhatsApp", "weight": 0.9, "type": "social" },
+    { "source": "Facebook", "target": "Messenger", "weight": 0.95, "type": "communication" },
+    { "source": "Facebook", "target": "Instagram", "weight": 0.95, "type": "social" },
+    { "source": "Facebook", "target": "Workplace", "weight": 0.7, "type": "tech" },
+    
+    { "source": "WhatsApp", "target": "Messenger", "weight": 0.85, "type": "communication" },
+    { "source": "WhatsApp", "target": "Telegram", "weight": 0.8, "type": "communication" },
+    { "source": "WhatsApp", "target": "Signal", "weight": 0.7, "type": "communication" },
+    { "source": "WhatsApp", "target": "WeChat", "weight": 0.75, "type": "communication" },
+    
+    { "source": "LinkedIn", "target": "GitHub", "weight": 0.85, "type": "professional" },
+    { "source": "LinkedIn", "target": "Indeed", "weight": 0.8, "type": "professional" },
+    { "source": "LinkedIn", "target": "Glassdoor", "weight": 0.75, "type": "professional" },
+    { "source": "LinkedIn", "target": "Xing", "weight": 0.7, "type": "professional" },
+    
+    { "source": "Google Maps", "target": "Waze", "weight": 0.9, "type": "tech" },
+    { "source": "Google Maps", "target": "Apple Maps", "weight": 0.6, "type": "tech" },
+    { "source": "Google Maps", "target": "TripAdvisor", "weight": 0.8, "type": "travel" },
+    { "source": "Google Maps", "target": "Yelp", "weight": 0.85, "type": "travel" },
+    
+    { "source": "Skype", "target": "Teams", "weight": 0.85, "type": "communication" },
+    { "source": "Skype", "target": "Zoom", "weight": 0.8, "type": "communication" },
+    { "source": "Skype", "target": "Google Meet", "weight": 0.7, "type": "communication" },
+    { "source": "Skype", "target": "Discord", "weight": 0.75, "type": "communication" },
+    
+    { "source": "Office 365", "target": "Google Workspace", "weight": 0.8, "type": "tech" },
+    { "source": "Office 365", "target": "Dropbox", "weight": 0.75, "type": "cloud" },
+    { "source": "Office 365", "target": "Google Drive", "weight": 0.7, "type": "cloud" },
+    { "source": "Office 365", "target": "Notion", "weight": 0.7, "type": "tech" },
+    
+    { "source": "Xbox", "target": "PlayStation", "weight": 0.7, "type": "gaming" },
+    { "source": "Xbox", "target": "Nintendo", "weight": 0.65, "type": "gaming" },
+    { "source": "Xbox", "target": "Steam", "weight": 0.8, "type": "gaming" },
+    { "source": "Xbox", "target": "Twitch", "weight": 0.85, "type": "gaming" },
+    { "source": "Xbox", "target": "Discord", "weight": 0.8, "type": "gaming" },
+    
+    { "source": "Android", "target": "Chrome", "weight": 0.9, "type": "tech" },
+    { "source": "Android", "target": "Google Play", "weight": 0.95, "type": "tech" },
+    { "source": "Android", "target": "Samsung", "weight": 0.85, "type": "tech" },
+    { "source": "Android", "target": "App Store", "weight": 0.6, "type": "tech" },
+    
+    { "source": "iCloud", "target": "Google Drive", "weight": 0.7, "type": "cloud" },
+    { "source": "iCloud", "target": "Dropbox", "weight": 0.7, "type": "cloud" },
+    { "source": "iCloud", "target": "OneDrive", "weight": 0.65, "type": "cloud" },
+    { "source": "iCloud", "target": "Google Photos", "weight": 0.8, "type": "cloud" },
+    
+    { "source": "Apple Music", "target": "Spotify", "weight": 0.85, "type": "media" },
+    { "source": "Apple Music", "target": "Amazon Music", "weight": 0.75, "type": "media" },
+    { "source": "Apple Music", "target": "YouTube Music", "weight": 0.8, "type": "media" },
+    { "source": "Apple Music", "target": "Tidal", "weight": 0.7, "type": "media" },
+    
+    { "source": "App Store", "target": "Google Play", "weight": 0.8, "type": "tech" },
+    { "source": "App Store", "target": "Samsung Store", "weight": 0.6, "type": "tech" },
+    { "source": "App Store", "target": "Amazon Appstore", "weight": 0.65, "type": "tech" },
+    
+    { "source": "IMDb", "target": "Rotten Tomatoes", "weight": 0.85, "type": "media" },
+    { "source": "IMDb", "target": "Metacritic", "weight": 0.8, "type": "media" },
+    { "source": "IMDb", "target": "Letterboxd", "weight": 0.75, "type": "media" },
+    { "source": "IMDb", "target": "Goodreads", "weight": 0.7, "type": "media" },
+    
+    { "source": "Goodreads", "target": "Amazon Books", "weight": 0.9, "type": "media" },
+    { "source": "Goodreads", "target": "Apple Books", "weight": 0.7, "type": "media" },
+    { "source": "Goodreads", "target": "Audible", "weight": 0.85, "type": "media" },
+    
+    { "source": "Audible", "target": "Apple Books", "weight": 0.7, "type": "media" },
+    { "source": "Audible", "target": "Spotify", "weight": 0.65, "type": "media" },
+    { "source": "Audible", "target": "Podcasts", "weight": 0.75, "type": "media" },
+    
+    { "source": "Teams", "target": "Slack", "weight": 0.8, "type": "communication" },
+    { "source": "Teams", "target": "Zoom", "weight": 0.8, "type": "communication" },
+    { "source": "Teams", "target": "Google Meet", "weight": 0.75, "type": "communication" },
+    { "source": "Teams", "target": "Discord", "weight": 0.7, "type": "communication" },
+    
+    { "source": "Outlook", "target": "Gmail", "weight": 0.8, "type": "communication" },
+    { "source": "Outlook", "target": "ProtonMail", "weight": 0.6, "type": "communication" },
+    { "source": "Outlook", "target": "Office 365", "weight": 0.95, "type": "tech" },
+    
+    { "source": "Bing", "target": "Google Search", "weight": 0.7, "type": "tech" },
+    { "source": "Bing", "target": "DuckDuckGo", "weight": 0.6, "type": "tech" },
+    { "source": "Bing", "target": "YouTube", "weight": 0.7, "type": "tech" },
+    
+    { "source": "Google Drive", "target": "Dropbox", "weight": 0.8, "type": "cloud" },
+    { "source": "Google Drive", "target": "OneDrive", "weight": 0.7, "type": "cloud" },
+    { "source": "Google Drive", "target": "iCloud", "weight": 0.7, "type": "cloud" },
+    { "source": "Google Drive", "target": "Box", "weight": 0.7, "type": "cloud" },
+    
+    { "source": "Google Photos", "target": "iCloud Photos", "weight": 0.7, "type": "cloud" },
+    { "source": "Google Photos", "target": "Flickr", "weight": 0.65, "type": "media" },
+    { "source": "Google Photos", "target": "Amazon Photos", "weight": 0.7, "type": "cloud" },
+    
+    { "source": "Google Calendar", "target": "Outlook Calendar", "weight": 0.75, "type": "tech" },
+    { "source": "Google Calendar", "target": "Apple Calendar", "weight": 0.7, "type": "tech" },
+    { "source": "Google Calendar", "target": "Notion", "weight": 0.7, "type": "tech" },
+    
+    { "source": "Threads", "target": "Twitter", "weight": 0.85, "type": "social" },
+    { "source": "Threads", "target": "Instagram", "weight": 0.9, "type": "social" },
+    { "source": "Threads", "target": "Mastodon", "weight": 0.6, "type": "social" },
+    
+    { "source": "Oculus", "target": "SteamVR", "weight": 0.8, "type": "gaming" },
+    { "source": "Oculus", "target": "VRChat", "weight": 0.85, "type": "gaming" },
+    { "source": "Oculus", "target": "Rec Room", "weight": 0.8, "type": "gaming" },
+    
+    { "source": "Apple Arcade", "target": "Google Play Pass", "weight": 0.7, "type": "gaming" },
+    { "source": "Apple Arcade", "target": "Xbox Game Pass", "weight": 0.65, "type": "gaming" },
+    { "source": "Apple Arcade", "target": "Apple App Store", "weight": 0.9, "type": "gaming" },
+    
+    { "source": "Podcasts", "target": "Spotify", "weight": 0.85, "type": "media" },
+    { "source": "Podcasts", "target": "Amazon Music", "weight": 0.75, "type": "media" },
+    { "source": "Podcasts", "target": "Google Podcasts", "weight": 0.9, "type": "media" },
+    
+    { "source": "Whole Foods", "target": "Amazon Fresh", "weight": 0.95, "type": "retail" },
+    { "source": "Whole Foods", "target": "Instacart", "weight": 0.8, "type": "retail" },
+    { "source": "Whole Foods", "target": "Uber Eats", "weight": 0.75, "type": "retail" },
+    
+    { "source": "Chrome", "target": "Firefox", "weight": 0.7, "type": "tech" },
+    { "source": "Chrome", "target": "Safari", "weight": 0.6, "type": "tech" },
+    { "source": "Chrome", "target": "Edge", "weight": 0.75, "type": "tech" },
+    { "source": "Chrome", "target": "Brave", "weight": 0.7, "type": "tech" },
+    
+    { "source": "Workplace", "target": "Teams", "weight": 0.8, "type": "tech" },
+    { "source": "Workplace", "target": "Slack", "weight": 0.75, "type": "tech" },
+    { "source": "Workplace", "target": "Facebook", "weight": 0.9, "type": "social" },
+    
+    { "source": "Apple News", "target": "Google News", "weight": 0.7, "type": "media" },
+    { "source": "Apple News", "target": "Flipboard", "weight": 0.7, "type": "media" },
+    { "source": "Apple News", "target": "Feedly", "weight": 0.65, "type": "media" }
+  ]
+}

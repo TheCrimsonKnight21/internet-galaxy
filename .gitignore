@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Build output
+dist/
+build/
+out/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
