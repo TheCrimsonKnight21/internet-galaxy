@@ -23,3 +23,6 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+# User Specified
+start.bat
