@@ -74,7 +74,9 @@ export function createGalaxy(
 
   const colorMap: Record<string, number> = {"tech-giant": 0xffcc33}; // fixed color for tech-giant category
   categories.forEach((c) => {
-    colorMap[c] = randomColorHexNumber();
+    if (!colorMap[c]) {
+      colorMap[c] = randomColorHexNumber();
+    }
   });
 
   // ─── Scene objects ───────────────────────────────────────────────────────────
