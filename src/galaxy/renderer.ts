@@ -72,7 +72,7 @@ export function createGalaxy(
   sitesData.planets.forEach((p) => categories.add(p.category));
   sitesData.suns.forEach((s) => categories.add(s.category));
 
-  const colorMap: Record<string, number> = {};
+  const colorMap: Record<string, number> = {"tech-giant": 0xffcc33}; // fixed color for tech-giant category
   categories.forEach((c) => {
     colorMap[c] = randomColorHexNumber();
   });
