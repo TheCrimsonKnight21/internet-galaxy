@@ -27,5 +27,4 @@ logs/
 # User Specified
 start.bat
 Data_Reader.py
-new_sites.json
 old_sites.json
