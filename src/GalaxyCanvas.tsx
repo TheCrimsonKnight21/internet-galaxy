@@ -8,22 +8,20 @@ interface Props {
 
 const GalaxyCanvas: React.FC<Props> = ({ searchTerm, activeCategories }) => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const galaxyRef = useRef<{ updateFilters: (s: string, c: Set<string>) => void } | null>(null);
+  const galaxyRef = useRef<ReturnType<typeof createGalaxy> | null>(null);
 
   useEffect(() => {
     if (!containerRef.current) return;
-    // Initialize galaxy
     galaxyRef.current = createGalaxy(containerRef.current, searchTerm, activeCategories);
+
     return () => {
-      // Optional cleanup: dispose Three.js resources
+      galaxyRef.current?.dispose();
+      galaxyRef.current = null;
     };
   }, []); // Run once on mount
 
-  // Update filters when props change
   useEffect(() => {
-    if (galaxyRef.current) {
-      galaxyRef.current.updateFilters(searchTerm, activeCategories);
-    }
+    galaxyRef.current?.updateFilters(searchTerm, activeCategories);
   }, [searchTerm, activeCategories]);
 
   return <div ref={containerRef} style={{ width: '100vw', height: '100vh' }} />;
