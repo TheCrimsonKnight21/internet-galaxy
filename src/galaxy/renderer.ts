@@ -66,19 +66,16 @@ export function createGalaxy(
     locked: false,
   };
 
-  // ─── Category colours (built BEFORE colorMap so suns are included) ──────────
+  // ─── Category colours ───────────────────────────────────────────────────────
 
   const categories = new Set<string>();
   sitesData.planets.forEach((p) => categories.add(p.category));
-  sitesData.suns.forEach((s) => categories.add(s.category));
 
-  const colorMap: Record<string, number> = {"tech-giant": 0xffcc33}; // fixed color for tech-giant category
+  const colorMap: Record<string, number> = {}; // fixed color for tech-giant category
   categories.forEach((c) => {
-    if (!colorMap[c]) {
       colorMap[c] = randomColorHexNumber();
-    }
   });
-
+  sitesData.suns.forEach((s) => categories.add(s.category));
   // ─── Scene objects ───────────────────────────────────────────────────────────
 
   let backgroundStars: THREE.Points = new THREE.Points();
