@@ -38,12 +38,15 @@ export function createGalaxy(
   }
 
   let stars: THREE.Points = new THREE.Points();
+  const Stars: THREE.Object3D[] = [];
+  const galaxyOrbitPivots: { pivot: THREE.Object3D; speed: number }[] = [];
+  const planetOrbitPivots: { pivot: THREE.Object3D; speed: number }[] = [];
   const starSystems: { [key: string]: StarSystem } = {};
   const planetMap: { [key: string]: THREE.Mesh } = {};
   const planets: THREE.Mesh[] = [];
   const orbitOffset: { [key: string]: number } = {};
   sitesData.suns.forEach((sun) => {
-    orbitOffset[sun.id] = 4 + (Math.floor(Math.random() * 4) + 1);
+    orbitOffset[sun.id] = 3 + (Math.floor(Math.random() * 4));
   });
 
   const wormholes: {
@@ -134,10 +137,12 @@ export function createGalaxy(
 
   // Create galaxy
   sitesData.suns.forEach((sun) => {
-    const orbit = createOrbit(15, sun.id);
+    const orbit = createOrbit(10, sun.id);
     scene.add(orbit);
+    Stars.push(orbit);
   });
-
+  const center = createGalaxyCenter();
+  scene.add(center);
   createStars();
   scene.updateMatrixWorld(true);
   createEdges();
@@ -151,9 +156,8 @@ export function createGalaxy(
     planets.forEach((planet) => {
       planet.scale.set(1, 1, 1);
       const matchesSearch = planet.userData.name
-        .toLowerCase()
         .includes(state.searchTerm);
-      const planetCategory = (planet.userData.category || "").toLowerCase().trim();
+      const planetCategory = (planet.userData.category || "").trim();
       const matchesCategory =
         state.activeCategories.size === 0 || state.activeCategories.has(planetCategory);
       planet.visible = matchesSearch && matchesCategory;
@@ -161,9 +165,8 @@ export function createGalaxy(
 
     Object.values(starSystems).forEach((system) => {
       const matchesSearch = system.sunMesh.userData.name
-        .toLowerCase()
         .includes(state.searchTerm);
-      const sunCategory = system.sunMesh.userData.category.toLowerCase().trim();
+      const sunCategory = system.sunMesh.userData.category.trim();
       const matchesCategory =
         state.activeCategories.size === 0 || state.activeCategories.has(sunCategory);
       system.sunMesh.visible = matchesCategory && matchesSearch;
@@ -187,8 +190,14 @@ export function createGalaxy(
     }
 
     stars.rotation.y += 0.0002;
+    galaxyOrbitPivots.forEach(({ pivot, speed }) => {
+      pivot.rotation.y += speed;
+    });
+    planetOrbitPivots.forEach(({ pivot, speed }) => {
+      pivot.rotation.y += speed;
+    });
     Object.values(starSystems).forEach((system) => {
-      system.transformRoot.rotation.y += 0.005;
+      system.transformRoot.rotation.y += 0.0004;
     });
 
     wormholes.forEach((w) => {
@@ -246,7 +255,7 @@ export function createGalaxy(
 
   animate();
 
-  // --- Helper functions (unchanged) ---
+  // --- Helper functions ---
   function createStars() {
     const starCount = 1000;
     const positions = new Float32Array(starCount * 3);
@@ -287,12 +296,18 @@ export function createGalaxy(
       const planet = createPlanetFromData(site, "planet");
       const angle = Math.random() * Math.PI * 2;
       const orbitDistance = distance + index * (orbitOffset[sunId] || 5);
-      planet.position.set(
-        Math.cos(angle) * orbitDistance,
-        0,
-        Math.sin(angle) * orbitDistance
-      );
-      visualParent.add(planet);
+      const orbitPivot = new THREE.Object3D();
+      const direction = Math.random() < 0.5 ? -1 : 1;
+
+      orbitPivot.rotation.y = angle;
+      visualParent.add(orbitPivot);
+
+      planet.position.set(orbitDistance, 0, 0);
+      orbitPivot.add(planet);
+      planetOrbitPivots.push({
+        pivot: orbitPivot,
+        speed: direction * (0.003 + Math.random() * 0.004),
+      });
       systemPlanets.push(planet);
     });
 
@@ -309,11 +324,22 @@ export function createGalaxy(
   function createPlanetFromData(site: any, type: string) {
     const size = type === "sun" ? 5 : site.traffic / 100;
     const geometry = new THREE.SphereGeometry(size, 32, 32);
-    const material = new THREE.MeshBasicMaterial({
+    let material = new THREE.MeshBasicMaterial;
+    let planet: THREE.Mesh;
+    if (site === "none") {
+      material = new THREE.MeshBasicMaterial({
+        color: 0x78FCFF,
+        visible: true,
+      });
+      planet = new THREE.Mesh(geometry, material);
+    }
+    else{
+    material = new THREE.MeshBasicMaterial({
       color: colorMap[site.category] || (type === "sun" ? 0xffcc33 : 0x00ff00),
       visible: true,
+      
     });
-    const planet = new THREE.Mesh(geometry, material);
+    planet = new THREE.Mesh(geometry, material);
     planet.userData = {
       name: site.id,
       url: site.link,
@@ -323,6 +349,8 @@ export function createGalaxy(
     };
     planetMap[site.id] = planet;
     planets.push(planet);
+    }
+    
     return planet;
   }
 
@@ -392,6 +420,48 @@ export function createGalaxy(
     return (
       "0x" + Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, "0")
     );
+  }
+
+  function createGalaxyCenter() {
+    const transformRoot = new THREE.Object3D();
+    transformRoot.position.set(0, 0, 0);
+    scene.add(transformRoot);
+
+    const visualParent = new THREE.Object3D();
+    transformRoot.add(visualParent);
+
+    const sunMesh = createPlanetFromData("none", "sun");
+     sunMesh.scale.setScalar(2.5);
+    visualParent.add(sunMesh);
+    const systemPlanets: THREE.Mesh[] = [];
+
+    Stars.forEach((star, index) => {
+      const angle = Math.random() * Math.PI * 2;
+      const orbitDistance = 40 + index * 20;
+      const orbitPivot = new THREE.Object3D();
+
+      orbitPivot.rotation.y = angle;
+      visualParent.add(orbitPivot);
+
+      star.position.set(orbitDistance, 0, 0);
+      orbitPivot.add(star);
+      const direction = Math.random() < 0.5 ? -1 : 1;
+      galaxyOrbitPivots.push({
+        pivot: orbitPivot,
+        speed: direction * (0.0005 + Math.random() * 0.0015),
+      });
+
+      systemPlanets.push(star as THREE.Mesh);
+    });
+
+    transformRoot.userData = {
+      transformRoot: transformRoot,
+      visualParent: visualParent,
+      sunMesh: sunMesh,
+      planets: systemPlanets,
+      orbitRadius: 20,
+    };
+    return transformRoot;
   }
 
   // Return an update function for React to call when filters change
