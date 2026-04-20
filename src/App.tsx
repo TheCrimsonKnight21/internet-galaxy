@@ -79,8 +79,8 @@ function App() {
         style={{
           position: "absolute",
           ...(isMobile
-            ? { bottom: "60px", right: "12px" }
-            : { top: "220px", left: "24px" }),
+            ? { bottom: "60px", right: "12px", top: "auto", left: "auto" }
+            : { top: "220px", left: "24px", bottom: "auto", right: "auto" }),
           zIndex: 20,
           pointerEvents: "auto",
           background: "rgba(20,20,20,0.85)",
@@ -121,8 +121,8 @@ function App() {
         style={{
           position: "absolute",
           ...(isMobile
-            ? { bottom: "12px", left: "12px" }
-            : { top: "24px", right: "24px" }),
+            ? { bottom: "12px", left: "12px", top: "auto", right: "auto" }
+            : { top: "24px", right: "24px", bottom: "auto", left: "auto" }),
           zIndex: 20,
           pointerEvents: "auto",
           background: orbitsPaused
@@ -185,9 +185,9 @@ function App() {
           style={{
             display: "flex",
             position: "absolute",
-            bottom: isMobile ? "12px" : "24px",
-            left: isMobile ? "60px" : "24px",
-            right: isMobile ? "auto" : "auto",
+            ...(isMobile
+              ? { bottom: "12px", left: "60px", top: "auto", right: "auto" }
+              : { bottom: "24px", left: "24px", top: "auto", right: "auto" }),
             zIndex: 20,
             pointerEvents: "auto",
             background: "rgba(20,20,20,0.85)",
