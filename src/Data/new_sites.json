@@ -1,0 +1,4023 @@
+{
+  "suns": [
+    {
+      "id": "Google",
+      "traffic": 87.07003036808497,
+      "category": "media",
+      "x": -0.9602226165880374,
+      "y": 48.24306584907123,
+      "z": 1.9824156326002758,
+      "link": "https://Google.com"
+    },
+    {
+      "id": "Meta",
+      "traffic": 89.56187933510228,
+      "category": "media",
+      "x": -28.22836525513747,
+      "y": 48.26021531381224,
+      "z": 28.65490315772519,
+      "link": "https://Meta.com"
+    },
+    {
+      "id": "X Corp",
+      "traffic": 86.92597907520327,
+      "category": "media",
+      "x": 3.4944336971663166,
+      "y": 46.35843707657284,
+      "z": -57.35349718844637,
+      "link": "https://X Corp.com"
+    },
+    {
+      "id": "Microsoft",
+      "traffic": 87.3775521791351,
+      "category": "media",
+      "x": 39.60759360966849,
+      "y": 43.49923128722839,
+      "z": 54.82880373208188,
+      "link": "https://Microsoft.com"
+    },
+    {
+      "id": "googletagmanager.com",
+      "traffic": 90.96910013008056,
+      "category": "media",
+      "x": -77.7667581257033,
+      "y": 44.50377479617342,
+      "z": -13.663627876516259,
+      "link": "https://googletagmanager.com.com"
+    },
+    {
+      "id": "Apple",
+      "traffic": 86.7707898393425,
+      "category": "media",
+      "x": 73.9082875977551,
+      "y": 43.22520042193089,
+      "z": -44.705825888377625,
+      "link": "https://Apple.com"
+    },
+    {
+      "id": "Wikimedia Foundation",
+      "traffic": 89.06239639581769,
+      "category": "media",
+      "x": -22.020206071456457,
+      "y": 43.60280576111496,
+      "z": 88.91700216995609,
+      "link": "https://Wikimedia Foundation.com"
+    },
+    {
+      "id": "WordPress Foundation",
+      "traffic": 89.20818753952375,
+      "category": "media",
+      "x": -45.630673716213536,
+      "y": 41.56219624716199,
+      "z": -86.61323134144988,
+      "link": "https://WordPress Foundation.com"
+    },
+    {
+      "id": "Pinterest",
+      "traffic": 87.69551078621726,
+      "category": "media",
+      "x": 99.21086121929386,
+      "y": 36.60731472613817,
+      "z": 37.06610070502181,
+      "link": "https://Pinterest.com"
+    },
+    {
+      "id": "Vimeo",
+      "traffic": 85.59593203859605,
+      "category": "media",
+      "x": -106.99121741648528,
+      "y": 34.99520005059859,
+      "z": 41.403118863291915,
+      "link": "https://Vimeo.com"
+    },
+    {
+      "id": "ByteDance",
+      "traffic": 86.19788758288394,
+      "category": "media",
+      "x": 52.31085021792068,
+      "y": 37.99051354788903,
+      "z": -105.74503056016636,
+      "link": "https://ByteDance.com"
+    },
+    {
+      "id": "nginx.org",
+      "traffic": 85.85026652029183,
+      "category": "media",
+      "x": 39.60851850541313,
+      "y": 35.29382380105393,
+      "z": 117.94309106741687,
+      "link": "https://nginx.org.com"
+    },
+    {
+      "id": "f5.com",
+      "traffic": 85.5284196865778,
+      "category": "media",
+      "x": -109.59990470134487,
+      "y": 31.802188975691365,
+      "z": -61.220203270397576,
+      "link": "https://f5.com.com"
+    },
+    {
+      "id": "nginx.com",
+      "traffic": 85.37602002101045,
+      "category": "media",
+      "x": 128.44398189917877,
+      "y": 32.75123198958716,
+      "z": -29.388343734633423,
+      "link": "https://nginx.com.com"
+    },
+    {
+      "id": "Amazon",
+      "traffic": 85.22878745280337,
+      "category": "media",
+      "x": -77.17478199214406,
+      "y": 27.94946372139309,
+      "z": 112.40633178808412,
+      "link": "https://Amazon.com"
+    },
+    {
+      "id": "bit.ly",
+      "traffic": 85.08638306165727,
+      "category": "media",
+      "x": -15.675115047428461,
+      "y": 27.889702787944255,
+      "z": -139.40765812770664,
+      "link": "https://bit.ly.com"
+    },
+    {
+      "id": "Adobe",
+      "traffic": 84.94850021680094,
+      "category": "media",
+      "x": 110.38498724458648,
+      "y": 24.30906799709075,
+      "z": 92.42987704349304,
+      "link": "https://Adobe.com"
+    },
+    {
+      "id": "Automattic",
+      "traffic": 83.4812332235801,
+      "category": "media",
+      "x": -143.13487508964604,
+      "y": 27.087151120425116,
+      "z": 7.785298508937248,
+      "link": "https://Automattic.com"
+    },
+    {
+      "id": "Mozilla Foundation",
+      "traffic": 84.55931955649724,
+      "category": "media",
+      "x": 104.44425514100674,
+      "y": 21.877200131913785,
+      "z": -102.08852880547778,
+      "link": "https://Mozilla Foundation.com"
+    },
+    {
+      "id": "europa.eu",
+      "traffic": 84.08935392973501,
+      "category": "social",
+      "x": -8.683600645962072,
+      "y": 19.907854688247525,
+      "z": 146.73222254617835,
+      "link": "https://europa.eu.com"
+    },
+    {
+      "id": "blogspot.com",
+      "traffic": 83.97940008672037,
+      "category": "media",
+      "x": -95.82575866270078,
+      "y": 21.083115217330462,
+      "z": -113.51141311758242,
+      "link": "https://blogspot.com.com"
+    },
+    {
+      "id": "Apache Software Foundation",
+      "traffic": 83.66531544420414,
+      "category": "tech",
+      "x": 149.2854675579664,
+      "y": 17.20761885613472,
+      "z": 22.65896481808544,
+      "link": "https://Apache Software Foundation.com"
+    },
+    {
+      "id": "t.me",
+      "traffic": 83.56547323513813,
+      "category": "communication",
+      "x": -124.65032395395305,
+      "y": 17.365720461074485,
+      "z": 88.94802383514761,
+      "link": "https://t.me.com"
+    },
+    {
+      "id": "GitHub",
+      "traffic": 83.46787486224656,
+      "category": "tech",
+      "x": 32.03588683339294,
+      "y": 15.662829594960487,
+      "z": -154.7956686664078,
+      "link": "https://GitHub.com"
+    },
+    {
+      "id": "mailinabox.email",
+      "traffic": 83.37242168318426,
+      "category": "communication",
+      "x": 78.99861304351168,
+      "y": 17.31758415336001,
+      "z": 136.0795072501597,
+      "link": "https://mailinabox.email.com"
+    },
+    {
+      "id": "Yahoo",
+      "traffic": 83.09803919971486,
+      "category": "media",
+      "x": -155.13017850284018,
+      "y": 13.212764458217585,
+      "z": -48.079376850142495,
+      "link": "https://Yahoo.com"
+    },
+    {
+      "id": "forms.gle",
+      "traffic": 83.01029995663981,
+      "category": "tech",
+      "x": 145.42650707173632,
+      "y": 10.466381712053398,
+      "z": -68.86965044137494,
+      "link": "https://forms.gle.com"
+    },
+    {
+      "id": "Reddit Inc.",
+      "traffic": 82.92429823902063,
+      "category": "media",
+      "x": -63.25806329863547,
+      "y": 8.78305287437124,
+      "z": 152.3201337354872,
+      "link": "https://Reddit Inc..com"
+    },
+    {
+      "id": "miit.gov.cn",
+      "traffic": 82.83996656365201,
+      "category": "media",
+      "x": -53.6971700724916,
+      "y": 9.104360300360307,
+      "z": -154.2381479667223,
+      "link": "https://miit.gov.cn.com"
+    },
+    {
+      "id": "nih.gov",
+      "traffic": 82.75724130399212,
+      "category": "communication",
+      "x": 145.53283800756532,
+      "y": 7.914817336855219,
+      "z": 75.13303132590187,
+      "link": "https://nih.gov.com"
+    },
+    {
+      "id": "Tencent",
+      "traffic": 82.67606240177031,
+      "category": "media",
+      "x": -158.39549867506844,
+      "y": 8.838445371605964,
+      "z": 39.613194253476266,
+      "link": "https://Tencent.com"
+    },
+    {
+      "id": "Spotify",
+      "traffic": 82.40743030061057,
+      "category": "media",
+      "x": 89.86103737117986,
+      "y": 5.103419799696653,
+      "z": -138.64077326483954,
+      "link": "https://Spotify.com"
+    },
+    {
+      "id": "beian.miit.gov.cn",
+      "traffic": 82.518119729938,
+      "category": "communication",
+      "x": 26.13111825185584,
+      "y": 0.67165820901198,
+      "z": 163.02064414553382,
+      "link": "https://beian.miit.gov.cn.com"
+    },
+    {
+      "id": "macromedia.com",
+      "traffic": 82.36572006437063,
+      "category": "media",
+      "x": -133.30652222650056,
+      "y": 0.12529711322537018,
+      "z": -99.22758807268877,
+      "link": "https://macromedia.com.com"
+    },
+    {
+      "id": "amazonaws.com",
+      "traffic": 82.29147988357856,
+      "category": "media",
+      "x": 162.60841965551137,
+      "y": -2.5806114410421115,
+      "z": -12.747310546492697,
+      "link": "https://amazonaws.com.com"
+    },
+    {
+      "id": "Internet Archive",
+      "traffic": 81.64089719908375,
+      "category": "media",
+      "x": -114.99200592808644,
+      "y": -2.22753492821763,
+      "z": 123.08612783129544,
+      "link": "https://Internet Archive.com"
+    },
+    {
+      "id": "GoDaddy",
+      "traffic": 82.07608310501746,
+      "category": "media",
+      "x": 2.3946562981965562,
+      "y": -3.818157008270789,
+      "z": -168.495739772584,
+      "link": "https://GoDaddy.com"
+    },
+    {
+      "id": "ec.europa.eu",
+      "traffic": 81.93820026016112,
+      "category": "social",
+      "x": 109.5206170344297,
+      "y": -4.63580374341588,
+      "z": 123.87946656833647,
+      "link": "https://ec.europa.eu.com"
+    },
+    {
+      "id": "SmugMug",
+      "traffic": 81.80456064458131,
+      "category": "media",
+      "x": -167.20130560735723,
+      "y": -7.259099755960065,
+      "z": -16.906471687349384,
+      "link": "https://SmugMug.com"
+    },
+    {
+      "id": "The New York Times Company",
+      "traffic": 81.73925197299174,
+      "category": "media",
+      "x": 129.00703841352387,
+      "y": -7.007734869739624,
+      "z": -101.97761919285341,
+      "link": "https://The New York Times Company.com"
+    },
+    {
+      "id": "Medium",
+      "traffic": 81.67491087293763,
+      "category": "media",
+      "x": -30.019124105786457,
+      "y": -5.899261175053142,
+      "z": 159.59710435673261,
+      "link": "https://Medium.com"
+    },
+    {
+      "id": "W3C",
+      "traffic": 81.61150909262744,
+      "category": "media",
+      "x": -85.90708500092362,
+      "y": -7.704473232571315,
+      "z": -139.3678660146966,
+      "link": "https://W3C.com"
+    },
+    {
+      "id": "Baidu",
+      "traffic": 81.54901959985743,
+      "category": "media",
+      "x": 158.35098139576914,
+      "y": -9.032594444269572,
+      "z": 41.279388706795345,
+      "link": "https://Baidu.com"
+    },
+    {
+      "id": "Creative Commons",
+      "traffic": 81.48741651280925,
+      "category": "media",
+      "x": -144.05882916556823,
+      "y": -11.895257972558564,
+      "z": 71.22897379488006,
+      "link": "https://Creative Commons.com"
+    },
+    {
+      "id": "SoundCloud",
+      "traffic": 81.42667503568731,
+      "category": "media",
+      "x": 54.01607983659396,
+      "y": -13.562333789840702,
+      "z": -147.4017561474003,
+      "link": "https://SoundCloud.com"
+    },
+    {
+      "id": "Forbes",
+      "traffic": 81.36677139879544,
+      "category": "media",
+      "x": 58.19354979851074,
+      "y": -18.92287349986119,
+      "z": 146.48702209838612,
+      "link": "https://Forbes.com"
+    },
+    {
+      "id": "Zoom Video Communications",
+      "traffic": 81.30768280269024,
+      "category": "media",
+      "x": -137.47731408733796,
+      "y": -19.79428142173088,
+      "z": -68.10108881232168,
+      "link": "https://Zoom Video Communications.com"
+    },
+    {
+      "id": "www.ncbi.nlm.nih.gov",
+      "traffic": 81.1918640771921,
+      "category": "media",
+      "x": 148.5788649110905,
+      "y": -19.242591915349752,
+      "z": -48.03051419382976,
+      "link": "https://www.ncbi.nlm.nih.gov.com"
+    },
+    {
+      "id": "sciencedirect.com",
+      "traffic": 81.0790539730952,
+      "category": "media",
+      "x": -79.17873375171371,
+      "y": -19.889227293430643,
+      "z": 131.82592957470686,
+      "link": "https://sciencedirect.com.com"
+    },
+    {
+      "id": "sourceforge.net",
+      "traffic": 81.02372908709559,
+      "category": "tech",
+      "x": -32.615076344521086,
+      "y": -19.51631681771248,
+      "z": -144.15667047321662,
+      "link": "https://sourceforge.net.com"
+    },
+    {
+      "id": "cpanel.net",
+      "traffic": 80.96910013008056,
+      "category": "communication",
+      "x": 118.79530065822397,
+      "y": -24.92984194378507,
+      "z": 86.34758530076328,
+      "link": "https://cpanel.net.com"
+    },
+    {
+      "id": "doi.org",
+      "traffic": 80.9151498112135,
+      "category": "social",
+      "x": -141.65273910229425,
+      "y": -24.01352688734555,
+      "z": 16.723078660655602,
+      "link": "https://doi.org.com"
+    },
+    {
+      "id": "Guardian Media Group",
+      "traffic": 80.86186147616283,
+      "category": "media",
+      "x": 94.34346320655537,
+      "y": -28.484690350282477,
+      "z": -109.79824503285595,
+      "link": "https://Guardian Media Group.com"
+    },
+    {
+      "id": "PayPal",
+      "traffic": 80.80921907623926,
+      "category": "media",
+      "x": 2.600328205937063,
+      "y": -26.320403698477637,
+      "z": 137.60714115716297,
+      "link": "https://PayPal.com"
+    },
+    {
+      "id": "United Nations",
+      "traffic": 80.75720713938118,
+      "category": "communication",
+      "x": -92.49636103340711,
+      "y": -29.977678696965192,
+      "z": -96.00965599731602,
+      "link": "https://United Nations.com"
+    },
+    {
+      "id": "Shopify",
+      "traffic": 80.70581074285707,
+      "category": "media",
+      "x": 127.9211060398368,
+      "y": -31.69914876803866,
+      "z": 8.079831764095847,
+      "link": "https://Shopify.com"
+    },
+    {
+      "id": "Oracle",
+      "traffic": 80.65501548756433,
+      "category": "tech",
+      "x": -95.92527669618924,
+      "y": -32.640110830527775,
+      "z": 82.99383210810839,
+      "link": "https://Oracle.com"
+    },
+    {
+      "id": "wixsite.com",
+      "traffic": 80.60480747381382,
+      "category": "media",
+      "x": 16.18591514850947,
+      "y": -32.64946248110661,
+      "z": -122.08342755478544,
+      "link": "https://wixsite.com.com"
+    },
+    {
+      "id": "Dropbox",
+      "traffic": 80.50609993355087,
+      "category": "media",
+      "x": 69.66222811745949,
+      "y": -37.74329291732849,
+      "z": 97.03570021565817,
+      "link": "https://Dropbox.com"
+    },
+    {
+      "id": "Warner Bros. Discovery",
+      "traffic": 80.45757490560675,
+      "category": "media",
+      "x": -109.7318771199753,
+      "y": -35.00277185521641,
+      "z": -25.874085992878094,
+      "link": "https://Warner Bros. Discovery.com"
+    },
+    {
+      "id": "opera.com",
+      "traffic": 80.40958607678907,
+      "category": "media",
+      "x": 90.37504965854274,
+      "y": -39.73268029394932,
+      "z": -54.697829899054,
+      "link": "https://opera.com.com"
+    },
+    {
+      "id": "vk.com",
+      "traffic": 80.36212172654444,
+      "category": "media",
+      "x": -32.03435922157486,
+      "y": -39.33004083178782,
+      "z": 97.41077341802729,
+      "link": "https://vk.com.com"
+    },
+    {
+      "id": "youtube-nocookie.com",
+      "traffic": 80.31517051446065,
+      "category": "media",
+      "x": -40.1321535854597,
+      "y": -43.86853580742407,
+      "z": -85.84120757832953,
+      "link": "https://youtube-nocookie.com.com"
+    },
+    {
+      "id": "launchpad.net",
+      "traffic": 80.26872146400302,
+      "category": "media",
+      "x": 81.27986128709712,
+      "y": -39.71865341426455,
+      "z": 34.70959602709464,
+      "link": "https://launchpad.net.com"
+    },
+    {
+      "id": "tinyurl.com",
+      "traffic": 80.22276394711152,
+      "category": "media",
+      "x": -76.59875636250909,
+      "y": -42.36208096843914,
+      "z": 28.044386961914384,
+      "link": "https://tinyurl.com.com"
+    },
+    {
+      "id": "dropcatch.com",
+      "traffic": 80.17728766960431,
+      "category": "media",
+      "x": 33.10637948781112,
+      "y": -47.63073323963869,
+      "z": -59.14345526497351,
+      "link": "https://dropcatch.com.com"
+    },
+    {
+      "id": "BBC",
+      "traffic": 80.08773924307505,
+      "category": "media",
+      "x": 13.718106669308796,
+      "y": -45.254418634092076,
+      "z": 54.730632890457635,
+      "link": "https://BBC.com"
+    },
+    {
+      "id": "cloudflare.com",
+      "traffic": 80.0436480540245,
+      "category": "cloud",
+      "x": -32.94909157507817,
+      "y": -50.91895605442025,
+      "z": -18.9206730597396,
+      "link": "https://cloudflare.com.com"
+    },
+    {
+      "id": "researchgate.net",
+      "traffic": 80.0,
+      "category": "media",
+      "x": -0.44141043257698875,
+      "y": -51.62350591413387,
+      "z": 1.7632980869682857,
+      "link": "https://researchgate.net.com"
+    }
+  ],
+  "planets": [
+    {
+      "id": "google.com",
+      "traffic": 100,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "facebook.com",
+      "traffic": 96.98970004336019,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://facebook.com",
+      "orbits": "Meta"
+    },
+    {
+      "id": "youtube.com",
+      "traffic": 95.22878745280337,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://youtube.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "instagram.com",
+      "traffic": 93.97940008672037,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://instagram.com",
+      "orbits": "Meta"
+    },
+    {
+      "id": "twitter.com",
+      "traffic": 93.01029995663981,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://twitter.com",
+      "orbits": "X Corp"
+    },
+    {
+      "id": "linkedin.com",
+      "traffic": 92.21848749616356,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://linkedin.com",
+      "orbits": "Microsoft"
+    },
+    {
+      "id": "microsoft.com",
+      "traffic": 91.54901959985743,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://microsoft.com",
+      "orbits": "Microsoft"
+    },
+    {
+      "id": "googletagmanager.com",
+      "traffic": 90.96910013008056,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://googletagmanager.com",
+      "orbits": "googletagmanager.com"
+    },
+    {
+      "id": "apple.com",
+      "traffic": 90.45757490560675,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://apple.com",
+      "orbits": "Apple"
+    },
+    {
+      "id": "github.com",
+      "traffic": 90.0,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://github.com",
+      "orbits": "Microsoft"
+    },
+    {
+      "id": "wikipedia.org",
+      "traffic": 89.58607314841775,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://wikipedia.org",
+      "orbits": "Wikimedia Foundation"
+    },
+    {
+      "id": "wordpress.org",
+      "traffic": 89.20818753952375,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://wordpress.org",
+      "orbits": "WordPress Foundation"
+    },
+    {
+      "id": "youtu.be",
+      "traffic": 88.86056647693164,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://youtu.be",
+      "orbits": "Google"
+    },
+    {
+      "id": "en.wikipedia.org",
+      "traffic": 88.53871964321762,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://en.wikipedia.org",
+      "orbits": "Wikimedia Foundation"
+    },
+    {
+      "id": "play.google.com",
+      "traffic": 88.23908740944319,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://play.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "goo.gl",
+      "traffic": 87.95880017344075,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://goo.gl",
+      "orbits": "Google"
+    },
+    {
+      "id": "pinterest.com",
+      "traffic": 87.69551078621726,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://pinterest.com",
+      "orbits": "Pinterest"
+    },
+    {
+      "id": "maps.google.com",
+      "traffic": 87.44727494896694,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://maps.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "x.com",
+      "traffic": 87.21246399047172,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://x.com",
+      "orbits": "X Corp"
+    },
+    {
+      "id": "vimeo.com",
+      "traffic": 86.98970004336019,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://vimeo.com",
+      "orbits": "Vimeo"
+    },
+    {
+      "id": "docs.google.com",
+      "traffic": 86.7778070526608,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://docs.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "apps.apple.com",
+      "traffic": 86.57577319177794,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://apps.apple.com",
+      "orbits": "Apple"
+    },
+    {
+      "id": "whatsapp.com",
+      "traffic": 86.38272163982407,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://whatsapp.com",
+      "orbits": "Meta"
+    },
+    {
+      "id": "tiktok.com",
+      "traffic": 86.19788758288394,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://tiktok.com",
+      "orbits": "ByteDance"
+    },
+    {
+      "id": "wa.me",
+      "traffic": 86.02059991327963,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://wa.me",
+      "orbits": "Meta"
+    },
+    {
+      "id": "nginx.org",
+      "traffic": 85.85026652029183,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://nginx.org",
+      "orbits": "nginx.org"
+    },
+    {
+      "id": "policies.google.com",
+      "traffic": 85.68636235841012,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://policies.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "f5.com",
+      "traffic": 85.5284196865778,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://f5.com",
+      "orbits": "f5.com"
+    },
+    {
+      "id": "nginx.com",
+      "traffic": 85.37602002101045,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://nginx.com",
+      "orbits": "nginx.com"
+    },
+    {
+      "id": "amazon.com",
+      "traffic": 85.22878745280337,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://amazon.com",
+      "orbits": "Amazon"
+    },
+    {
+      "id": "bit.ly",
+      "traffic": 85.08638306165727,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://bit.ly",
+      "orbits": "bit.ly"
+    },
+    {
+      "id": "adobe.com",
+      "traffic": 84.94850021680094,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://adobe.com",
+      "orbits": "Adobe"
+    },
+    {
+      "id": "wordpress.com",
+      "traffic": 84.81486060122113,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://wordpress.com",
+      "orbits": "Automattic"
+    },
+    {
+      "id": "drive.google.com",
+      "traffic": 84.68521082957744,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://drive.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "mozilla.org",
+      "traffic": 84.55931955649724,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://mozilla.org",
+      "orbits": "Mozilla Foundation"
+    },
+    {
+      "id": "api.whatsapp.com",
+      "traffic": 84.43697499232712,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://api.whatsapp.com",
+      "orbits": "Meta"
+    },
+    {
+      "id": "support.google.com",
+      "traffic": 84.31798275933005,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://support.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "player.vimeo.com",
+      "traffic": 84.2021640338319,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://player.vimeo.com",
+      "orbits": "Vimeo"
+    },
+    {
+      "id": "europa.eu",
+      "traffic": 84.08935392973501,
+      "category": "social",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://europa.eu",
+      "orbits": "europa.eu"
+    },
+    {
+      "id": "blogspot.com",
+      "traffic": 83.97940008672037,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://blogspot.com",
+      "orbits": "blogspot.com"
+    },
+    {
+      "id": "plus.google.com",
+      "traffic": 83.87216143280264,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://plus.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "maps.app.goo.gl",
+      "traffic": 83.76750709602099,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://maps.app.goo.gl",
+      "orbits": "Google"
+    },
+    {
+      "id": "apache.org",
+      "traffic": 83.66531544420414,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://apache.org",
+      "orbits": "Apache Software Foundation"
+    },
+    {
+      "id": "t.me",
+      "traffic": 83.56547323513813,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://t.me",
+      "orbits": "t.me"
+    },
+    {
+      "id": "github.io",
+      "traffic": 83.46787486224656,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://github.io",
+      "orbits": "GitHub"
+    },
+    {
+      "id": "mailinabox.email",
+      "traffic": 83.37242168318426,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://mailinabox.email",
+      "orbits": "mailinabox.email"
+    },
+    {
+      "id": "itunes.apple.com",
+      "traffic": 83.27902142064282,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://itunes.apple.com",
+      "orbits": "Apple"
+    },
+    {
+      "id": "gravatar.com",
+      "traffic": 83.18758762624412,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://gravatar.com",
+      "orbits": "Automattic"
+    },
+    {
+      "id": "yahoo.com",
+      "traffic": 83.09803919971486,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://yahoo.com",
+      "orbits": "Yahoo"
+    },
+    {
+      "id": "forms.gle",
+      "traffic": 83.01029995663981,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://forms.gle",
+      "orbits": "forms.gle"
+    },
+    {
+      "id": "reddit.com",
+      "traffic": 82.92429823902063,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://reddit.com",
+      "orbits": "Reddit Inc."
+    },
+    {
+      "id": "miit.gov.cn",
+      "traffic": 82.83996656365201,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://miit.gov.cn",
+      "orbits": "miit.gov.cn"
+    },
+    {
+      "id": "nih.gov",
+      "traffic": 82.75724130399212,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://nih.gov",
+      "orbits": "nih.gov"
+    },
+    {
+      "id": "qq.com",
+      "traffic": 82.67606240177031,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://qq.com",
+      "orbits": "Tencent"
+    },
+    {
+      "id": "spotify.com",
+      "traffic": 82.59637310505757,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://spotify.com",
+      "orbits": "Spotify"
+    },
+    {
+      "id": "beian.miit.gov.cn",
+      "traffic": 82.518119729938,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://beian.miit.gov.cn",
+      "orbits": "beian.miit.gov.cn"
+    },
+    {
+      "id": "tumblr.com",
+      "traffic": 82.44125144327509,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://tumblr.com",
+      "orbits": "Automattic"
+    },
+    {
+      "id": "macromedia.com",
+      "traffic": 82.36572006437063,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://macromedia.com",
+      "orbits": "macromedia.com"
+    },
+    {
+      "id": "amazonaws.com",
+      "traffic": 82.29147988357856,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://amazonaws.com",
+      "orbits": "amazonaws.com"
+    },
+    {
+      "id": "open.spotify.com",
+      "traffic": 82.21848749616356,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://open.spotify.com",
+      "orbits": "Spotify"
+    },
+    {
+      "id": "archive.org",
+      "traffic": 82.14670164989232,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://archive.org",
+      "orbits": "Internet Archive"
+    },
+    {
+      "id": "godaddy.com",
+      "traffic": 82.07608310501746,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://godaddy.com",
+      "orbits": "GoDaddy"
+    },
+    {
+      "id": "sites.google.com",
+      "traffic": 82.00659450546418,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://sites.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "ec.europa.eu",
+      "traffic": 81.93820026016112,
+      "category": "social",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://ec.europa.eu",
+      "orbits": "ec.europa.eu"
+    },
+    {
+      "id": "office.com",
+      "traffic": 81.87086643357145,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://office.com",
+      "orbits": "Microsoft"
+    },
+    {
+      "id": "flickr.com",
+      "traffic": 81.80456064458131,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://flickr.com",
+      "orbits": "SmugMug"
+    },
+    {
+      "id": "nytimes.com",
+      "traffic": 81.73925197299174,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://nytimes.com",
+      "orbits": "The New York Times Company"
+    },
+    {
+      "id": "medium.com",
+      "traffic": 81.67491087293763,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://medium.com",
+      "orbits": "Medium"
+    },
+    {
+      "id": "w3.org",
+      "traffic": 81.61150909262744,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://w3.org",
+      "orbits": "W3C"
+    },
+    {
+      "id": "baidu.com",
+      "traffic": 81.54901959985743,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://baidu.com",
+      "orbits": "Baidu"
+    },
+    {
+      "id": "creativecommons.org",
+      "traffic": 81.48741651280925,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://creativecommons.org",
+      "orbits": "Creative Commons"
+    },
+    {
+      "id": "soundcloud.com",
+      "traffic": 81.42667503568731,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://soundcloud.com",
+      "orbits": "SoundCloud"
+    },
+    {
+      "id": "forbes.com",
+      "traffic": 81.36677139879544,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://forbes.com",
+      "orbits": "Forbes"
+    },
+    {
+      "id": "zoom.us",
+      "traffic": 81.30768280269024,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://zoom.us",
+      "orbits": "Zoom Video Communications"
+    },
+    {
+      "id": "live.com",
+      "traffic": 81.249387366083,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://live.com",
+      "orbits": "Microsoft"
+    },
+    {
+      "id": "www.ncbi.nlm.nih.gov",
+      "traffic": 81.1918640771921,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://www.ncbi.nlm.nih.gov",
+      "orbits": "www.ncbi.nlm.nih.gov"
+    },
+    {
+      "id": "web.archive.org",
+      "traffic": 81.13509274827518,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://web.archive.org",
+      "orbits": "Internet Archive"
+    },
+    {
+      "id": "sciencedirect.com",
+      "traffic": 81.0790539730952,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://sciencedirect.com",
+      "orbits": "sciencedirect.com"
+    },
+    {
+      "id": "sourceforge.net",
+      "traffic": 81.02372908709559,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://sourceforge.net",
+      "orbits": "sourceforge.net"
+    },
+    {
+      "id": "cpanel.net",
+      "traffic": 80.96910013008056,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://cpanel.net",
+      "orbits": "cpanel.net"
+    },
+    {
+      "id": "doi.org",
+      "traffic": 80.9151498112135,
+      "category": "social",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://doi.org",
+      "orbits": "doi.org"
+    },
+    {
+      "id": "theguardian.com",
+      "traffic": 80.86186147616283,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://theguardian.com",
+      "orbits": "Guardian Media Group"
+    },
+    {
+      "id": "paypal.com",
+      "traffic": 80.80921907623926,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://paypal.com",
+      "orbits": "PayPal"
+    },
+    {
+      "id": "who.int",
+      "traffic": 80.75720713938118,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://who.int",
+      "orbits": "United Nations"
+    },
+    {
+      "id": "shopify.com",
+      "traffic": 80.70581074285707,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://shopify.com",
+      "orbits": "Shopify"
+    },
+    {
+      "id": "oracle.com",
+      "traffic": 80.65501548756433,
+      "category": "tech",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://oracle.com",
+      "orbits": "Oracle"
+    },
+    {
+      "id": "wixsite.com",
+      "traffic": 80.60480747381382,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://wixsite.com",
+      "orbits": "wixsite.com"
+    },
+    {
+      "id": "t.co",
+      "traffic": 80.55517327849832,
+      "category": "communication",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://t.co",
+      "orbits": "X Corp"
+    },
+    {
+      "id": "dropbox.com",
+      "traffic": 80.50609993355087,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://dropbox.com",
+      "orbits": "Dropbox"
+    },
+    {
+      "id": "cnn.com",
+      "traffic": 80.45757490560675,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://cnn.com",
+      "orbits": "Warner Bros. Discovery"
+    },
+    {
+      "id": "opera.com",
+      "traffic": 80.40958607678907,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://opera.com",
+      "orbits": "opera.com"
+    },
+    {
+      "id": "vk.com",
+      "traffic": 80.36212172654444,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://vk.com",
+      "orbits": "vk.com"
+    },
+    {
+      "id": "youtube-nocookie.com",
+      "traffic": 80.31517051446065,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://youtube-nocookie.com",
+      "orbits": "youtube-nocookie.com"
+    },
+    {
+      "id": "launchpad.net",
+      "traffic": 80.26872146400302,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://launchpad.net",
+      "orbits": "launchpad.net"
+    },
+    {
+      "id": "tinyurl.com",
+      "traffic": 80.22276394711152,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://tinyurl.com",
+      "orbits": "tinyurl.com"
+    },
+    {
+      "id": "dropcatch.com",
+      "traffic": 80.17728766960431,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://dropcatch.com",
+      "orbits": "dropcatch.com"
+    },
+    {
+      "id": "accounts.google.com",
+      "traffic": 80.13228265733756,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://accounts.google.com",
+      "orbits": "Google"
+    },
+    {
+      "id": "bbc.com",
+      "traffic": 80.08773924307505,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://bbc.com",
+      "orbits": "BBC"
+    },
+    {
+      "id": "cloudflare.com",
+      "traffic": 80.0436480540245,
+      "category": "cloud",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://cloudflare.com",
+      "orbits": "cloudflare.com"
+    },
+    {
+      "id": "researchgate.net",
+      "traffic": 80.0,
+      "category": "media",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "link": "https://researchgate.net",
+      "orbits": "researchgate.net"
+    }
+  ],
+  "wormholes": [
+    {
+      "source": "google.com",
+      "target": "youtube.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "youtu.be",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "play.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "maps.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "docs.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "youtu.be",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "play.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "maps.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "docs.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtube.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "play.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "maps.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "docs.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "youtu.be",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "maps.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "docs.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "play.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "maps.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "docs.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "goo.gl",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "docs.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "policies.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "drive.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "support.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "support.google.com",
+      "target": "plus.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "support.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "support.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "support.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "plus.google.com",
+      "target": "maps.app.goo.gl",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "plus.google.com",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "plus.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.app.goo.gl",
+      "target": "sites.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "maps.app.goo.gl",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "sites.google.com",
+      "target": "accounts.google.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "facebook.com",
+      "target": "instagram.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "facebook.com",
+      "target": "whatsapp.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "facebook.com",
+      "target": "wa.me",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "facebook.com",
+      "target": "api.whatsapp.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "instagram.com",
+      "target": "whatsapp.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "instagram.com",
+      "target": "wa.me",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "instagram.com",
+      "target": "api.whatsapp.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "whatsapp.com",
+      "target": "wa.me",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "whatsapp.com",
+      "target": "api.whatsapp.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "wa.me",
+      "target": "api.whatsapp.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "twitter.com",
+      "target": "x.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "twitter.com",
+      "target": "t.co",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "x.com",
+      "target": "t.co",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "microsoft.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "github.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "office.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "live.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "microsoft.com",
+      "target": "github.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "microsoft.com",
+      "target": "office.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "microsoft.com",
+      "target": "live.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "github.com",
+      "target": "office.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "github.com",
+      "target": "live.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "office.com",
+      "target": "live.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "apple.com",
+      "target": "apps.apple.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "apple.com",
+      "target": "itunes.apple.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "apps.apple.com",
+      "target": "itunes.apple.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "wikipedia.org",
+      "target": "en.wikipedia.org",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "vimeo.com",
+      "target": "player.vimeo.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "wordpress.com",
+      "target": "gravatar.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "wordpress.com",
+      "target": "tumblr.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "gravatar.com",
+      "target": "tumblr.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "spotify.com",
+      "target": "open.spotify.com",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "archive.org",
+      "target": "web.archive.org",
+      "weight": 0.9,
+      "type": "ownership"
+    },
+    {
+      "source": "google.com",
+      "target": "theguardian.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "google.com",
+      "target": "player.vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "google.com",
+      "target": "drive.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "facebook.com",
+      "target": "archive.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "facebook.com",
+      "target": "x.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "facebook.com",
+      "target": "nginx.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtube.com",
+      "target": "player.vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtube.com",
+      "target": "vk.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtube.com",
+      "target": "itunes.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "instagram.com",
+      "target": "linkedin.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "instagram.com",
+      "target": "cnn.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "instagram.com",
+      "target": "baidu.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "twitter.com",
+      "target": "accounts.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "twitter.com",
+      "target": "tinyurl.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "twitter.com",
+      "target": "nginx.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "macromedia.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "apps.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "linkedin.com",
+      "target": "facebook.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "microsoft.com",
+      "target": "github.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "microsoft.com",
+      "target": "linkedin.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "microsoft.com",
+      "target": "macromedia.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "googletagmanager.com",
+      "target": "wordpress.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "googletagmanager.com",
+      "target": "spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "googletagmanager.com",
+      "target": "dropbox.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "apple.com",
+      "target": "office.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "apple.com",
+      "target": "instagram.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "apple.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "github.com",
+      "target": "blogspot.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "github.com",
+      "target": "paypal.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "github.com",
+      "target": "facebook.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wikipedia.org",
+      "target": "medium.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wikipedia.org",
+      "target": "launchpad.net",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wikipedia.org",
+      "target": "googletagmanager.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wordpress.org",
+      "target": "itunes.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wordpress.org",
+      "target": "w3.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wordpress.org",
+      "target": "accounts.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "en.wikipedia.org",
+      "target": "tumblr.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "en.wikipedia.org",
+      "target": "www.ncbi.nlm.nih.gov",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "en.wikipedia.org",
+      "target": "tinyurl.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "play.google.com",
+      "target": "linkedin.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "play.google.com",
+      "target": "office.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "play.google.com",
+      "target": "qq.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "pinterest.com",
+      "target": "wordpress.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "pinterest.com",
+      "target": "flickr.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "pinterest.com",
+      "target": "opera.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "x.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "x.com",
+      "target": "blogspot.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "x.com",
+      "target": "github.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "vimeo.com",
+      "target": "f5.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "vimeo.com",
+      "target": "blogspot.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "vimeo.com",
+      "target": "nginx.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "twitter.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "theguardian.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "docs.google.com",
+      "target": "blogspot.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "apps.apple.com",
+      "target": "tumblr.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "apps.apple.com",
+      "target": "wordpress.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "apps.apple.com",
+      "target": "github.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "whatsapp.com",
+      "target": "creativecommons.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "whatsapp.com",
+      "target": "nytimes.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "whatsapp.com",
+      "target": "amazon.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tiktok.com",
+      "target": "adobe.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tiktok.com",
+      "target": "medium.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tiktok.com",
+      "target": "www.ncbi.nlm.nih.gov",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nginx.org",
+      "target": "vk.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nginx.org",
+      "target": "wordpress.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nginx.org",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "f5.com",
+      "target": "wordpress.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "f5.com",
+      "target": "play.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "f5.com",
+      "target": "office.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nginx.com",
+      "target": "apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nginx.com",
+      "target": "en.wikipedia.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "amazon.com",
+      "target": "google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "amazon.com",
+      "target": "godaddy.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "amazon.com",
+      "target": "reddit.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "bit.ly",
+      "target": "instagram.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "bit.ly",
+      "target": "creativecommons.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "bit.ly",
+      "target": "shopify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "adobe.com",
+      "target": "cnn.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "adobe.com",
+      "target": "bbc.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "adobe.com",
+      "target": "x.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wordpress.com",
+      "target": "whatsapp.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wordpress.com",
+      "target": "miit.gov.cn",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wordpress.com",
+      "target": "f5.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "reddit.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "drive.google.com",
+      "target": "yahoo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "mozilla.org",
+      "target": "www.ncbi.nlm.nih.gov",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "mozilla.org",
+      "target": "amazon.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "mozilla.org",
+      "target": "googletagmanager.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "support.google.com",
+      "target": "en.wikipedia.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "support.google.com",
+      "target": "shopify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "support.google.com",
+      "target": "zoom.us",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "player.vimeo.com",
+      "target": "shopify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "player.vimeo.com",
+      "target": "reddit.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "player.vimeo.com",
+      "target": "opera.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "blogspot.com",
+      "target": "instagram.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "blogspot.com",
+      "target": "adobe.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "blogspot.com",
+      "target": "bbc.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "plus.google.com",
+      "target": "archive.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "plus.google.com",
+      "target": "live.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "plus.google.com",
+      "target": "zoom.us",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "itunes.apple.com",
+      "target": "amazonaws.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "itunes.apple.com",
+      "target": "opera.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "itunes.apple.com",
+      "target": "pinterest.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "gravatar.com",
+      "target": "www.ncbi.nlm.nih.gov",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "gravatar.com",
+      "target": "wordpress.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "gravatar.com",
+      "target": "facebook.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "yahoo.com",
+      "target": "archive.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "yahoo.com",
+      "target": "baidu.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "yahoo.com",
+      "target": "open.spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "reddit.com",
+      "target": "wordpress.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "reddit.com",
+      "target": "accounts.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "reddit.com",
+      "target": "web.archive.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "miit.gov.cn",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "miit.gov.cn",
+      "target": "blogspot.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "miit.gov.cn",
+      "target": "vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "qq.com",
+      "target": "tiktok.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "qq.com",
+      "target": "github.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "qq.com",
+      "target": "player.vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "spotify.com",
+      "target": "flickr.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "spotify.com",
+      "target": "linkedin.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "spotify.com",
+      "target": "cnn.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tumblr.com",
+      "target": "plus.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tumblr.com",
+      "target": "googletagmanager.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tumblr.com",
+      "target": "reddit.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "macromedia.com",
+      "target": "nginx.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "macromedia.com",
+      "target": "vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "macromedia.com",
+      "target": "gravatar.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "amazonaws.com",
+      "target": "amazon.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "amazonaws.com",
+      "target": "tinyurl.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "amazonaws.com",
+      "target": "web.archive.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "open.spotify.com",
+      "target": "www.ncbi.nlm.nih.gov",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "open.spotify.com",
+      "target": "wixsite.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "open.spotify.com",
+      "target": "docs.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "archive.org",
+      "target": "apps.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "archive.org",
+      "target": "github.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "archive.org",
+      "target": "spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "godaddy.com",
+      "target": "paypal.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "godaddy.com",
+      "target": "nytimes.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "godaddy.com",
+      "target": "support.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "sites.google.com",
+      "target": "whatsapp.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "sites.google.com",
+      "target": "en.wikipedia.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "sites.google.com",
+      "target": "launchpad.net",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "office.com",
+      "target": "support.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "office.com",
+      "target": "miit.gov.cn",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "office.com",
+      "target": "plus.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "flickr.com",
+      "target": "w3.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "flickr.com",
+      "target": "tinyurl.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "flickr.com",
+      "target": "shopify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nytimes.com",
+      "target": "office.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nytimes.com",
+      "target": "researchgate.net",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "nytimes.com",
+      "target": "wikipedia.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "medium.com",
+      "target": "nginx.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "medium.com",
+      "target": "launchpad.net",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "medium.com",
+      "target": "qq.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "w3.org",
+      "target": "google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "w3.org",
+      "target": "wixsite.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "w3.org",
+      "target": "reddit.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "baidu.com",
+      "target": "vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "baidu.com",
+      "target": "sites.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "baidu.com",
+      "target": "shopify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "creativecommons.org",
+      "target": "pinterest.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "creativecommons.org",
+      "target": "twitter.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "creativecommons.org",
+      "target": "gravatar.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "soundcloud.com",
+      "target": "drive.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "soundcloud.com",
+      "target": "nginx.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "soundcloud.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "forbes.com",
+      "target": "wordpress.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "forbes.com",
+      "target": "bit.ly",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "forbes.com",
+      "target": "archive.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "zoom.us",
+      "target": "linkedin.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "zoom.us",
+      "target": "researchgate.net",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "zoom.us",
+      "target": "itunes.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "live.com",
+      "target": "creativecommons.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "live.com",
+      "target": "tumblr.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "live.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "www.ncbi.nlm.nih.gov",
+      "target": "creativecommons.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "www.ncbi.nlm.nih.gov",
+      "target": "amazonaws.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "www.ncbi.nlm.nih.gov",
+      "target": "apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "web.archive.org",
+      "target": "drive.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "web.archive.org",
+      "target": "googletagmanager.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "sciencedirect.com",
+      "target": "plus.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "sciencedirect.com",
+      "target": "creativecommons.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "sciencedirect.com",
+      "target": "facebook.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "theguardian.com",
+      "target": "wixsite.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "theguardian.com",
+      "target": "vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "theguardian.com",
+      "target": "nginx.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "paypal.com",
+      "target": "wordpress.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "paypal.com",
+      "target": "mozilla.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "paypal.com",
+      "target": "pinterest.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "shopify.com",
+      "target": "blogspot.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "shopify.com",
+      "target": "miit.gov.cn",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "shopify.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wixsite.com",
+      "target": "vimeo.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wixsite.com",
+      "target": "amazon.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "wixsite.com",
+      "target": "www.ncbi.nlm.nih.gov",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "dropbox.com",
+      "target": "docs.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "dropbox.com",
+      "target": "itunes.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "dropbox.com",
+      "target": "paypal.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "cnn.com",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "cnn.com",
+      "target": "qq.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "cnn.com",
+      "target": "launchpad.net",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "opera.com",
+      "target": "tiktok.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "opera.com",
+      "target": "bbc.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "vk.com",
+      "target": "macromedia.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "vk.com",
+      "target": "spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "vk.com",
+      "target": "dropcatch.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtube-nocookie.com",
+      "target": "flickr.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtube-nocookie.com",
+      "target": "open.spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtube-nocookie.com",
+      "target": "accounts.google.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "launchpad.net",
+      "target": "theguardian.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "launchpad.net",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tinyurl.com",
+      "target": "itunes.apple.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tinyurl.com",
+      "target": "nginx.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "tinyurl.com",
+      "target": "spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "dropcatch.com",
+      "target": "macromedia.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "dropcatch.com",
+      "target": "youtube-nocookie.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "dropcatch.com",
+      "target": "amazonaws.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "accounts.google.com",
+      "target": "paypal.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "accounts.google.com",
+      "target": "sciencedirect.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "accounts.google.com",
+      "target": "wikipedia.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "bbc.com",
+      "target": "twitter.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "bbc.com",
+      "target": "spotify.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "bbc.com",
+      "target": "theguardian.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "researchgate.net",
+      "target": "creativecommons.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "researchgate.net",
+      "target": "wikipedia.org",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "researchgate.net",
+      "target": "youtube.com",
+      "weight": 0.6,
+      "type": "media"
+    },
+    {
+      "source": "youtu.be",
+      "target": "nih.gov",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "youtu.be",
+      "target": "t.me",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "youtu.be",
+      "target": "mailinabox.email",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "t.co",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "cpanel.net",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "maps.google.com",
+      "target": "beian.miit.gov.cn",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "wa.me",
+      "target": "maps.google.com",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "wa.me",
+      "target": "who.int",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "wa.me",
+      "target": "t.co",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "maps.app.goo.gl",
+      "target": "t.me",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "maps.app.goo.gl",
+      "target": "wa.me",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "maps.app.goo.gl",
+      "target": "t.co",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "t.me",
+      "target": "maps.google.com",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "t.me",
+      "target": "who.int",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "mailinabox.email",
+      "target": "t.co",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "mailinabox.email",
+      "target": "who.int",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "mailinabox.email",
+      "target": "maps.app.goo.gl",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "nih.gov",
+      "target": "mailinabox.email",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "nih.gov",
+      "target": "cpanel.net",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "nih.gov",
+      "target": "who.int",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "beian.miit.gov.cn",
+      "target": "who.int",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "beian.miit.gov.cn",
+      "target": "maps.app.goo.gl",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "beian.miit.gov.cn",
+      "target": "cpanel.net",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "cpanel.net",
+      "target": "youtu.be",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "who.int",
+      "target": "cpanel.net",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "who.int",
+      "target": "t.co",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "who.int",
+      "target": "maps.app.goo.gl",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "t.co",
+      "target": "t.me",
+      "weight": 0.6,
+      "type": "communication"
+    },
+    {
+      "source": "goo.gl",
+      "target": "forms.gle",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "goo.gl",
+      "target": "apache.org",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "goo.gl",
+      "target": "github.io",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "oracle.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "api.whatsapp.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "policies.google.com",
+      "target": "forms.gle",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "api.whatsapp.com",
+      "target": "goo.gl",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "api.whatsapp.com",
+      "target": "github.io",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "apache.org",
+      "target": "forms.gle",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "apache.org",
+      "target": "api.whatsapp.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "github.io",
+      "target": "oracle.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "github.io",
+      "target": "sourceforge.net",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "forms.gle",
+      "target": "sourceforge.net",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "sourceforge.net",
+      "target": "api.whatsapp.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "sourceforge.net",
+      "target": "policies.google.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "oracle.com",
+      "target": "sourceforge.net",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "oracle.com",
+      "target": "api.whatsapp.com",
+      "weight": 0.6,
+      "type": "tech"
+    },
+    {
+      "source": "europa.eu",
+      "target": "doi.org",
+      "weight": 0.6,
+      "type": "social"
+    },
+    {
+      "source": "europa.eu",
+      "target": "ec.europa.eu",
+      "weight": 0.6,
+      "type": "social"
+    },
+    {
+      "source": "ec.europa.eu",
+      "target": "doi.org",
+      "weight": 0.6,
+      "type": "social"
+    }
+  ]
+}
