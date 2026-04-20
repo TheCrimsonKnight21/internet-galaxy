@@ -219,10 +219,77 @@ export function createGalaxy(
   let prevHovered: PlanetInstance | null = null;
   let prevHoveredSunId: string | null = null;
 
+  // Touch handling for mobile
+  let touchStartTime = 0;
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let longPressTimeout: ReturnType<typeof setTimeout> | null = null;
+
   function onMouseMove(e: MouseEvent) {
     const r = container.getBoundingClientRect();
     mouse.x = ((e.clientX - r.left) / r.width) * 2 - 1;
     mouse.y = -((e.clientY - r.top) / r.height) * 2 + 1;
+  }
+
+  function onTouchStart(e: TouchEvent) {
+    if (e.touches.length !== 1) return;
+    touchStartTime = Date.now();
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+
+    // Set up long-press timer (500ms)
+    longPressTimeout = setTimeout(() => {
+      const r = container.getBoundingClientRect();
+      mouse.x = ((e.touches[0].clientX - r.left) / r.width) * 2 - 1;
+      mouse.y = -((e.touches[0].clientY - r.top) / r.height) * 2 + 1;
+      onLongPress();
+    }, 500);
+  }
+
+  function onTouchEnd(e: TouchEvent) {
+    if (longPressTimeout) {
+      clearTimeout(longPressTimeout);
+      longPressTimeout = null;
+    }
+
+    // Check if it was a tap (short duration, minimal movement)
+    const duration = Date.now() - touchStartTime;
+    const distance = Math.sqrt(
+      Math.pow(e.changedTouches[0].clientX - touchStartX, 2) +
+        Math.pow(e.changedTouches[0].clientY - touchStartY, 2),
+    );
+
+    if (duration < 500 && distance < 10) {
+      // It's a tap
+      const r = container.getBoundingClientRect();
+      mouse.x = ((e.changedTouches[0].clientX - r.left) / r.width) * 2 - 1;
+      mouse.y = -((e.changedTouches[0].clientY - r.top) / r.height) * 2 + 1;
+      const hitPlanet = raycastInstances();
+      const hitSun = raycastSuns();
+      if (hitPlanet) {
+        lockOnTarget(hitPlanet);
+      } else if (hitSun) {
+        cameraTargetSunId = hitSun;
+        state.locked = true;
+        controls.enabled = false;
+        onLockChange(true);
+      }
+    }
+  }
+
+  function onLongPress() {
+    const hitPlanet = raycastInstances();
+    if (hitPlanet?.userData.url) {
+      window.open(hitPlanet.userData.url, "_blank");
+      return;
+    }
+    const hitSun = raycastSuns();
+    if (hitSun) {
+      const sunSystem = starSystems[hitSun];
+      if (sunSystem.sunMesh.userData.url) {
+        window.open(sunSystem.sunMesh.userData.url, "_blank");
+      }
+    }
   }
 
   function onClick(e: MouseEvent) {
@@ -307,6 +374,10 @@ export function createGalaxy(
   window.addEventListener("mousemove", onMouseMove);
   window.addEventListener("click", onClick);
   window.addEventListener("dblclick", onDblClick);
+
+  // Touch events for mobile
+  window.addEventListener("touchstart", onTouchStart, { passive: true });
+  window.addEventListener("touchend", onTouchEnd, { passive: true });
 
   // ── Renderer ──────────────────────────────────────────────────────────────
 

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import sitesData from "./Data/sites.json";
 import GalaxyCanvas from "./GalaxyCanvas";
 import "./App.css";
@@ -24,6 +24,22 @@ function App() {
     category: "",
   });
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Detect mobile device
+    const checkMobile = () => {
+      setIsMobile(
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent,
+        ) || window.innerWidth < 768,
+      );
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const toggleCategory = (cat: string) => {
     setActiveCategories((prev) => {
@@ -62,27 +78,39 @@ function App() {
       <div
         style={{
           position: "absolute",
-          top: "220px",
-          left: "24px",
+          top: isMobile ? "320px" : "220px",
+          left: isMobile ? "12px" : "24px",
           zIndex: 20,
           pointerEvents: "auto",
           background: "rgba(20,20,20,0.85)",
           border: "1px solid rgba(255,255,255,0.25)",
           borderRadius: "8px",
           color: "white",
-          padding: "12px 16px",
-          fontSize: "13px",
+          padding: isMobile ? "10px 12px" : "12px 16px",
+          fontSize: isMobile ? "11px" : "13px",
           lineHeight: "1.6",
           backdropFilter: "blur(6px)",
-          maxWidth: "200px",
+          maxWidth: isMobile ? "140px" : "200px",
         }}
       >
         <b>Controls</b>
         <br />
         <span style={{ color: "rgba(255,255,255,0.8)" }}>
-          Click: Lock camera
-          <br />
-          Double-click: Open link
+          {isMobile ? (
+            <>
+              Tap: Lock
+              <br />
+              Long tap: Open link
+              <br />
+              Drag: Rotate view
+            </>
+          ) : (
+            <>
+              Click: Lock camera
+              <br />
+              Double-click: Open link
+            </>
+          )}
         </span>
       </div>
 
@@ -91,8 +119,8 @@ function App() {
         onClick={() => (window as any).__toggleOrbitPause?.()}
         style={{
           position: "absolute",
-          top: "24px",
-          right: "24px",
+          top: isMobile ? "12px" : "24px",
+          right: isMobile ? "12px" : "24px",
           zIndex: 20,
           pointerEvents: "auto",
           background: orbitsPaused
@@ -101,12 +129,12 @@ function App() {
           border: "1px solid rgba(255,255,255,0.25)",
           borderRadius: "8px",
           color: "white",
-          padding: "8px 14px",
+          padding: isMobile ? "6px 10px" : "8px 14px",
           cursor: "pointer",
-          fontSize: "13px",
+          fontSize: isMobile ? "11px" : "13px",
           display: "flex",
           alignItems: "center",
-          gap: "8px",
+          gap: isMobile ? "4px" : "8px",
           backdropFilter: "blur(6px)",
           transition: "background 0.2s",
         }}
@@ -123,8 +151,8 @@ function App() {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
+          width={isMobile ? "14" : "16"}
+          height={isMobile ? "14" : "16"}
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -145,7 +173,7 @@ function App() {
             </>
           )}
         </svg>
-        <span>{orbitsPaused ? "Paused" : "Playing"}</span>
+        {!isMobile && <span>{orbitsPaused ? "Paused" : "Playing"}</span>}
       </button>
 
       {/* Lock Button */}
@@ -155,19 +183,19 @@ function App() {
           style={{
             display: "flex",
             position: "absolute",
-            bottom: "24px",
-            left: "24px",
+            bottom: isMobile ? "12px" : "24px",
+            left: isMobile ? "12px" : "24px",
             zIndex: 20,
             pointerEvents: "auto",
             background: "rgba(20,20,20,0.85)",
             border: "1px solid rgba(255,255,255,0.25)",
             borderRadius: "8px",
             color: "white",
-            padding: "8px 14px",
+            padding: isMobile ? "6px 10px" : "8px 14px",
             cursor: "pointer",
-            fontSize: "13px",
+            fontSize: isMobile ? "11px" : "13px",
             alignItems: "center",
-            gap: "8px",
+            gap: isMobile ? "4px" : "8px",
             backdropFilter: "blur(6px)",
             transition: "background 0.2s",
           }}
@@ -180,8 +208,8 @@ function App() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="18"
+            width={isMobile ? "14" : "18"}
+            height={isMobile ? "14" : "18"}
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -192,7 +220,7 @@ function App() {
             <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
             <path d="M7 11V7a5 5 0 0 1 10 0v4" />
           </svg>
-          <span>Locked</span>
+          {!isMobile && <span>Locked</span>}
         </button>
       )}
 
