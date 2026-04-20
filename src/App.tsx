@@ -119,12 +119,12 @@ function App() {
       <button
         onClick={() => (window as any).__toggleOrbitPause?.()}
         style={{
-          position: "absolute",
+          position: "fixed",
           top: isMobile ? "auto" : "24px",
           right: isMobile ? "auto" : "24px",
           bottom: isMobile ? "12px" : "auto",
           left: isMobile ? "12px" : "auto",
-          zIndex: 25,
+          zIndex: 9999,
           pointerEvents: "auto",
           background: orbitsPaused
             ? "rgba(100,60,60,0.85)"
@@ -185,12 +185,12 @@ function App() {
           onClick={handleUnlockCamera}
           style={{
             display: "flex",
-            position: "absolute",
+            position: "fixed",
             top: isMobile ? "auto" : "24px",
             right: isMobile ? "auto" : "auto",
             bottom: isMobile ? "12px" : "24px",
             left: isMobile ? "60px" : "24px",
-            zIndex: 25,
+            zIndex: 9999,
             pointerEvents: "auto",
             background: "rgba(20,20,20,0.85)",
             border: "1px solid rgba(255,255,255,0.25)",
