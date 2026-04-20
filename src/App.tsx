@@ -78,8 +78,9 @@ function App() {
       <div
         style={{
           position: "absolute",
-          top: isMobile ? "320px" : "220px",
-          left: isMobile ? "12px" : "24px",
+          ...(isMobile
+            ? { bottom: "60px", right: "12px" }
+            : { top: "220px", left: "24px" }),
           zIndex: 20,
           pointerEvents: "auto",
           background: "rgba(20,20,20,0.85)",
@@ -119,8 +120,9 @@ function App() {
         onClick={() => (window as any).__toggleOrbitPause?.()}
         style={{
           position: "absolute",
-          top: isMobile ? "12px" : "24px",
-          right: isMobile ? "12px" : "24px",
+          ...(isMobile
+            ? { bottom: "12px", left: "12px" }
+            : { top: "24px", right: "24px" }),
           zIndex: 20,
           pointerEvents: "auto",
           background: orbitsPaused
@@ -184,7 +186,8 @@ function App() {
             display: "flex",
             position: "absolute",
             bottom: isMobile ? "12px" : "24px",
-            left: isMobile ? "12px" : "24px",
+            right: isMobile ? "60px" : "auto",
+            left: isMobile ? "auto" : "24px",
             zIndex: 20,
             pointerEvents: "auto",
             background: "rgba(20,20,20,0.85)",
