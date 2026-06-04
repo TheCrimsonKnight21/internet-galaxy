@@ -9,6 +9,11 @@ sitesData.planets.forEach((p) => {
     categories.push(p.category);
   }
 });
+sitesData.suns.forEach((s) => {
+  if (!categories.includes(s.category)) {
+    categories.push(s.category);
+  }
+});
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -57,6 +62,15 @@ function App() {
 
   const handleUnlockCamera = () => {
     setIsLocked(false);
+  };
+
+  // Generate category colors matching the Three.js renderer
+  const getCategoryColor = (categoryIndex: number): string => {
+    const hueStep = 1 / Math.max(categories.length, 1);
+    const hue = categoryIndex * hueStep;
+    const saturation = 0.85;
+    const lightness = 0.55;
+    return `hsl(${hue * 360}, ${saturation * 100}%, ${lightness * 100}%)`;
   };
 
   return (
@@ -186,10 +200,11 @@ function App() {
           style={{
             display: "flex",
             position: "fixed",
-            top: isMobile ? "auto" : "24px",
-            right: isMobile ? "auto" : "auto",
+            top: "auto",
+            right: "auto",
             bottom: isMobile ? "12px" : "24px",
             left: isMobile ? "60px" : "24px",
+            width: isMobile ? "auto" : "fit-content",
             zIndex: 9999,
             pointerEvents: "auto",
             background: "rgba(20,20,20,0.85)",
@@ -270,15 +285,44 @@ function App() {
             Clear Filters
           </button>
           <div className="category-filters">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => toggleCategory(cat)}
-                className={`category-btn ${activeCategories.has(cat) ? "active" : ""}`}
-              >
-                {cat}
-              </button>
-            ))}
+            {categories.map((cat, idx) => {
+              const categoryColor = getCategoryColor(idx);
+              return (
+                <button
+                  key={cat}
+                  onClick={() => toggleCategory(cat)}
+                  style={{
+                    padding: "6px 12px",
+                    background: activeCategories.has(cat)
+                      ? categoryColor
+                      : "rgba(255, 255, 255, 0.1)",
+                    border: activeCategories.has(cat)
+                      ? `1px solid ${categoryColor}`
+                      : "1px solid rgba(255, 255, 255, 0.2)",
+                    color: activeCategories.has(cat) ? "#000" : "white",
+                    borderRadius: "4px",
+                    cursor: "pointer",
+                    fontSize: "12px",
+                    textTransform: "capitalize",
+                    transition: "all 0.2s",
+                  }}
+                  onMouseEnter={(e) => {
+                    if (!activeCategories.has(cat)) {
+                      e.currentTarget.style.background =
+                        "rgba(255, 255, 255, 0.2)";
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (!activeCategories.has(cat)) {
+                      e.currentTarget.style.background =
+                        "rgba(255, 255, 255, 0.1)";
+                    }
+                  }}
+                >
+                  {cat}
+                </button>
+              );
+            })}
           </div>
         </div>
       </div>
